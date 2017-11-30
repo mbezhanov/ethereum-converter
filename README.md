@@ -4,7 +4,15 @@ A simple library for performing easy conversion between various Ethereum units.
 
 The conversion logic has been modelled after [web3.js](https://github.com/ethereum/web3.js)
 
-**Usage**
+This library requires the [bcmath](http://php.net/manual/en/book.bc.php) PHP extension.
+
+**Installation:**
+
+```bash
+composer require mbezhanov/ethereum-converter
+```
+
+**Usage:**
 
 ```php
 $converter = new Bezhanov\Ethereum\Converter();
