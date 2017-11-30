@@ -1,0 +1,24 @@
+{
+    "name": "mbezhanov/ethereum-converter",
+    "description": "A simple library for performing conversion between various Ethereum units",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marin Bezhanov",
+            "email": "marin.bezhanov@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Bezhanov\\Ethereum\\": "src" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Bezhanov\\Tests\\Ethereum\\": "tests" }
+    },
+    "require": {
+        "php": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.4"
+    }
+}
