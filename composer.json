@@ -16,9 +16,9 @@
         "psr-4": { "Bezhanov\\Tests\\Ethereum\\": "tests" }
     },
     "require": {
-        "php": "^7.0"
+        "php": "^7.3|^8.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^6.4"
+        "phpunit/phpunit": "^9.5"
     }
 }

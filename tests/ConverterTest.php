@@ -12,7 +12,7 @@ class ConverterTest extends TestCase
      */
     private $converter;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
         $this->converter = new Converter();

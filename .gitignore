@@ -2,3 +2,5 @@
 /coverage/
 /vendor/
 clover.xml
+.phpunit.result.cache
+
